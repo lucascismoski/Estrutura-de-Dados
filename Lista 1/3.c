@@ -39,7 +39,7 @@ void main(){
     free(num_componentes);
     free(n);
 
-    printf("\nby Lucas Cismoski Fiorin Lopes");
+    //printf("\nby Lucas Cismoski Fiorin Lopes");
 
     return 0;
 }
