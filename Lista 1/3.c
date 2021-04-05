@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "lcfl.h"
 
 int recebe_numeros(int *num_componentes, int *n){
     int *i = (int *) malloc(sizeof(int));
@@ -39,7 +40,7 @@ void main(){
     free(num_componentes);
     free(n);
 
-    //printf("\nby Lucas Cismoski Fiorin Lopes");
+    printaCopyRight();
 
     return 0;
 }

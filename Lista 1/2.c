@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
+#include "lcfl.h"
 
 bool eh_perfeito(int *numero){
     int *aux = (int *) malloc(sizeof(int));
@@ -34,7 +35,7 @@ int main(){
 
     free(num);
 
-    printf("\nby Lucas Cismoski Fiorin Lopes");
+    printaCopyRight();
 
     return 0;
 }

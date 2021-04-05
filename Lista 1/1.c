@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "lcfl.h"
 
 int main(){
     float *num1 = malloc(sizeof(float));
@@ -15,7 +16,7 @@ int main(){
     free(num1);
     free(num2);
 
-    printf("\nby Lucas Cismoski Fiorin Lopes");
+    printaCopyRight();
 
     return 0;
 }
