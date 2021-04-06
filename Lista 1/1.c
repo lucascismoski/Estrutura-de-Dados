@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "lcfl.h"
 
 int main(){

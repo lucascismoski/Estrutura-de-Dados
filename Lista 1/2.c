@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <stdbool.h>
 #include "lcfl.h"
 
 bool eh_perfeito(int *numero){

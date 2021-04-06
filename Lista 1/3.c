@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "lcfl.h"
 
 int recebe_numeros(int *num_componentes, int *n){
@@ -41,6 +40,4 @@ void main(){
     free(n);
 
     printaCopyRight();
-
-    return 0;
 }
